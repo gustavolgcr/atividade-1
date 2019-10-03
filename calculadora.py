@@ -14,6 +14,10 @@ def divisao(num1, num2):
 	divisao = num1 / num2
 	return divisao
 
+def exponenciacao(num1, num2):
+	exponenciacao = num1 ** num2
+	return exponenciacao
+
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
 
