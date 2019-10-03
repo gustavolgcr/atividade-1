@@ -10,6 +10,10 @@ def multiplicacao(num1, num2):
 	multiplicacao = num1 * num2
 	return multiplicacao
 
+def divisao(num1, num2):
+	divisao = num1 / num2
+	return divisao
+
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
 
@@ -21,5 +25,7 @@ elif(operacao == 2):
 	resultado = subtracao(num1, num2)
 elif(operacao == 3):
 	resultado = multiplicacao(num1, num2)
+elif(operacao == 4):
+	resultado = divisao(num1, num2)
 
 print(resultado)
