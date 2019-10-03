@@ -6,6 +6,10 @@ def subtracao(num1, num2):
 	subtracao = num1 - num2
 	return subtracao
 
+def multiplicacao(num1, num2):
+	multiplicacao = num1 * num2
+	return multiplicacao
+
 num1 = float(input("Digite o primeiro número: "))
 num2 = float(input("Digite o segundo número: "))
 
@@ -15,5 +19,7 @@ if(operacao == 1):
 	resultado = soma(num1, num2)
 elif(operacao == 2):
 	resultado = subtracao(num1, num2)
-	
+elif(operacao == 3):
+	resultado = multiplicacao(num1, num2)
+
 print(resultado)
